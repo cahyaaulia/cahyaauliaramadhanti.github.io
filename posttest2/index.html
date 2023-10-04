@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jewelry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Toko Perhiasan CHY</h1>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Produk</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      <section class="about">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah toko perhiasan CHY yang berkomitmen untuk menyediakan perhiasan berkualitas tinggi dengan desain eksklusif untuk pelanggan kami.</p>
+        <p>Tim kami terdiri dari para perhiasan terampil yang berpengalaman dalam menciptakan perhiasan yang memukau dan indah.</p>
+        <p>Kami mengutamakan kepuasan pelanggan dan selalu berusaha memberikan layanan terbaik.</p>
+      </section>
+
+      <section class="hero">
+        <h2>Selamat Datang di Toko Perhiasan CHY</h2>
+        <p>Kami menyediakan perhiasan berkualitas tinggi dengan desain eksklusif.</p>
+      </section>
+
+      <section class="products">
+        <h2>Daftar Produk</h2>
+        <div class="product"> 
+            <img src="cicin1.webp" width="100%" alt="Cincin 1">
+            <h3>Cincin Berlian Eksklusif</h3>
+            <p>Cincin berlian eksklusif dengan desain elegan.</p>
+            <p>Harga: Rp 5.000.000</p>
+            <button>Beli</button>
+        </div>
+        <div class="product">
+            <img src="kalung1.webp" width="100%" alt="Kalung 1">
+            <h3>Kalung Mutiara Mewah</h3>
+            <p>Kalung mutiara mewah dengan tali emas.</p>
+            <p>Harga: Rp 8.000.000</p>
+            <button>Beli</button>
+        </div>
+      </section>
+
+      <section class="contact">
+        <h2>Hubungi Kami</h2>
+        <p>Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, silakan hubungi kami melalui salah satu cara berikut:</p>
+        <ul>
+            <li>Email: <a href="mailto:info@tokoperhiasanchy.com">info@tokoperhiasanchy.com</a></li>
+            <li>Telepon: +123456789</li>
+            <li>Alamat: Jl. Contoh No. 123, Kota Anda</li>
+            </ul>
+        </section>
+          
+      </main>
+
+    <!-- Pop-up box untuk dark mode -->
+    <div id="dark-mode-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-button" onclick="closeDarkModePopup()">&times;</span>
+            <h2>Dark Mode</h2> 
+            <button id="confirm-dark-mode" onclick="toggleDarkMode()">Aktifkan Dark Mode</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Toko Perhiasan CHY</p>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
